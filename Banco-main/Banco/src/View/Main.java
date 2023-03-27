@@ -8,9 +8,9 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Conta c = new Conta(1000, "Maria", 1);
-		contaCorrente cc = new contaCorrente(1000, "Fernanda", 2);
-		contaPoupanca cp = new contaPoupanca(1000, "Tulio", 3);
+		Conta c = new Conta(1000, "Leticia", 1);
+		contaCorrente cc = new contaCorrente(1000, "Cristiano", 2);
+		contaPoupanca cp = new contaPoupanca(1000, "Ronaldo", 3);
 		
 		c.deposita(100);
 		cc.deposita(430.0);
